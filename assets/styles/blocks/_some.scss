@@ -1,0 +1,117 @@
+.some {
+    position: relative;
+    &__items {
+
+    }
+
+    &__text {
+        text-align: center;
+        &:before {
+            content: '';
+            width: 100px;
+            height: 92px;
+            position: absolute;
+            background: url(/assets/images/icons/Image-raketa.png) no-repeat;
+            top: -11%;
+            right: 74%;
+            @include tablet-plus {
+                content: '';
+                width: 197px;
+                height: 183px;
+                position: absolute;
+                background: url(/assets/images/icons/3d_rocket.png);
+                top: -3%;
+                right: 3%;
+                z-index: -1;
+            }
+        }
+    }
+
+    &__line {
+        background: url(/assets/images/icons/Shape-line-thoo.png) no-repeat bottom;
+        @include tablet-plus {
+            background: url(/assets/images/icons/Shapee.svg) no-repeat bottom;
+        }
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        text-transform: capitalize;
+        color: #18063C;
+        @include tablet-plus {
+            font-size: 48px;
+            line-height: 70px;
+        }
+    }
+
+    &__sub-title {
+        margin: 14px 0 28px;
+        max-width: 318px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 36px;
+        color: #404040;
+        opacity: 0.8;
+        @include tablet-plus {
+            margin: 0 auto;
+            font-size: 18px;
+            max-width: 659px;
+            padding-bottom: 60px;
+        }
+    }
+
+    &__block {
+        display: grid;
+        gap: 24px;
+        @include tablet-plus {
+            display: flex;
+            gap: 20px;
+        }
+    }
+
+    &__card {
+        padding: 20px 50px 20px 20px;
+        background: #70D0DC;
+        box-shadow: 14px 20px 48px rgba(25, 15, 44, 0.06);
+        border-radius: 30px;
+    }
+
+    &__img {
+        padding: 15px 14px;
+        background: rgba(255, 255, 255, 0.5);
+        box-shadow: 14px 20px 48px rgba(25, 15, 44, 0.06);
+        border-radius: 15px;
+    }
+
+    &__card-title {
+        margin: 18px 0 10px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+
+    &__card-sub-title {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+        opacity: 0.8;
+    }
+
+    &__card-thoo {
+        padding: 20px 50px 20px 20px;
+        background: #7562E0;
+        box-shadow: 14px 20px 48px rgba(25, 15, 44, 0.06);
+        border-radius: 30px;
+    }
+
+    &__card-thee {
+        padding: 20px 50px 20px 20px;
+        background: #FA865F;
+        box-shadow: 14px 20px 48px rgba(25, 15, 44, 0.06);
+        border-radius: 30px;
+    }
+}

@@ -1,0 +1,98 @@
+.analytics {
+
+    .container {
+        @include tablet-plus {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    padding: 45px 0 60px;
+
+    &__img {
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+        @include tablet-plus {
+            margin-top: 150px;
+        }
+    }
+
+    &__line {
+        background: url(/assets/images/icons/Shape-line-three.svg) no-repeat bottom;
+        @include tablet-plus {
+            background: none;
+        }
+    }
+    
+
+    &__title {
+        margin-top: 70px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        color: #18063C;
+        @include tablet-plus {
+            font-size: 48px;
+            line-height: 68px;
+            max-width: 568px;
+        }
+    }
+
+    &__line-plus {
+        @include tablet-plus {
+            background: url(/assets/images/Shappe.png) no-repeat bottom left;
+        }
+    }
+
+    &__sub-title {
+        margin: 16px 0 36px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+        color: #404040;
+        opacity: 0.8; 
+        @include tablet-plus {
+            font-size: 18px;
+            line-height: 36px;
+            max-width: 544px;
+        }
+    }
+
+    &__card {
+        display: flex;
+        gap: 18px;
+    }
+
+    &__card-title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 120%;
+        color: #404040;
+        @include tablet-plus {
+            font-size: 28px;
+            line-height: 36px;
+        }
+    }
+
+    &__card-sub-title {
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 180%;
+        color: #404040;
+        opacity: 0.8;
+        @include tablet-plus {
+            font-size: 18px;
+            line-height: 36px;
+            max-width: 300px;
+        }
+    }
+
+    &__card-thoo {
+        display: flex;
+        gap: 18px;
+        margin: 24px 0;
+    }
+}

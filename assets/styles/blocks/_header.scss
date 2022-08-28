@@ -1,0 +1,89 @@
+.header {
+    background: #FFF8F2;
+    padding: 28px 0 0 0;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #burger {
+        @include tablet-plus {
+            display: none;
+        }
+    }
+
+    &__img-logo {
+        display: flex;
+        gap: 11px;
+    }
+
+    &__list {
+        display: none;
+        @include tablet-plus {
+            display: flex;
+            gap: 48px;
+        }
+    }
+
+    &__buttons {
+        display: none;
+        @include tablet-plus {
+            display: flex;
+            gap: 36px;
+        }
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: #1C0E0D;
+        transition: 0.4s ease;
+        &:hover {
+            color: #FF553E;
+            cursor: pointer;
+        }
+    }
+
+    &__button {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FF553E;
+        &:hover {
+            color: #af3e2f;
+            cursor: pointer;
+        }
+    }
+
+    &__sub-button {
+        padding: 12px 32px;
+        background: #FF553E;
+        border-radius: 34px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        transition: 0.4s ease;
+        border: 1px solid #ff553E;
+        &:hover {
+            background-color: #FFFFFF;
+            color: #FF553E;
+            cursor: pointer;
+        }
+
+
+    }
+}

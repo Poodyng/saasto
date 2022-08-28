@@ -1,0 +1,46 @@
+.statistics {
+
+    &__items {
+        padding: 48px 0 80px;
+        text-align: center;
+
+        @include tablet-plus {
+            display: flex;
+        }
+    }
+
+    &__block {
+        max-width: 180px;
+        margin: 0 auto;
+        &:not(:last-child) {
+            padding-bottom: 48px;
+            margin-bottom: 48px;
+            border-bottom: 1px solid rgba(30, 12, 62, 0.2);
+            @include tablet-plus {
+                border: none;
+            }
+        }
+
+    }
+
+    &__title {
+        margin-bottom: 28px;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 64px;
+        color: #18063C;
+
+        @include tablet-plus {
+            font-size: 48px;
+            line-height: 64px;
+        }
+    }
+
+    &__sub-title {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #404040;
+        opacity: 0.6;
+    }
+}

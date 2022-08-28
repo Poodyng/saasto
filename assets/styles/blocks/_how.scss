@@ -1,0 +1,113 @@
+.how {
+    position: relative;
+    background: rgba(243, 253, 254, 0.6);
+
+.container {
+    @include tablet-plus {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+    &__text {
+        &:before {
+            content: '';
+            width: 104px;
+            height: 103px;
+            position: absolute;
+            background: url(/assets/images/icons/chart.svg) no-repeat;
+            top: -3%;
+            right: -7%;
+        }
+    }
+
+    &__line {
+        background: url(/assets/images/icons/Shape-thfo.svg) no-repeat bottom;
+        @include tablet-plus {
+            background: url(/assets/images/icons/Shape.png) no-repeat bottom;
+        }
+    }
+
+    &__block-card {
+        display: grid;
+        gap: 21px;
+        @include tablet-plus {
+            gap: 65px;
+        }
+    }
+
+    &__title {
+        padding:48px 0 36px;
+        max-width: 233px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        color: #18063C;
+        @include tablet-plus {
+            font-size: 48px;
+            line-height: 70px;
+            max-width: 707px;
+        }
+    }
+
+    &__sub-title {
+        display: none;
+        @include tablet-plus {
+            display: block;
+            max-width: 699px;
+            margin-bottom: 64px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 36px;
+            color: #404040;
+            opacity: 0.8;
+        }
+    }
+
+    &__card-thoo {
+        display: flex;
+        gap: 18px;
+        @include tablet-plus {
+            margin-left: 108px;
+            transition: 0.8s ease;
+        }
+    }
+
+    &__sub-text {
+        
+    }
+
+    &__card-title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 120%;
+        color: #404040;
+        @include tablet-plus {
+            font-size: 28px;
+            line-height: 36px;
+        }
+    }
+
+    &__card-sub-title {
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 180%;
+        color: #404040;
+        opacity: 0.8;
+        @include tablet-plus {
+            font-size: 18px;
+            line-height: 36px;
+            max-width: 300px;
+        }
+    }
+
+    &__img {
+        padding: 48px 0;
+        text-align: center;
+    }
+
+    &__img-kit-thoo {
+        margin-top: 45px;
+    }
+}

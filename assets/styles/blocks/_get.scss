@@ -1,0 +1,109 @@
+.get {
+    position: relative;    
+    padding: 48px 0 0 0;
+    background-color: rgba(255, 248, 242, 1);
+
+    &__line {
+        background: url(/assets/images/icons/Shape-eight.svg) no-repeat bottom;
+        @include tablet-plus {
+            background: url(/assets/images/Shappe.png) no-repeat bottom;
+        }
+    }
+
+    &__block {
+        margin-top: 100px;
+    }
+
+    &__items {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        text-transform: capitalize;
+        color: #332C5C;
+        @include tablet-plus {
+            font-size: 48px;
+            line-height: 70px;
+        }
+    }
+
+    &__sub-title {
+        margin: 16px 0 30px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #404040;
+        opacity: 0.8;
+        @include tablet-plus {
+            font-size: 20px;
+            line-height: 36px;
+            max-width: 525px;
+            &::after {
+                @include tablet-plus {
+                    padding: 20px 35px;
+                    content: '';
+                    position: absolute;
+                    background: url(/assets/images/Image-tudaa.png) no-repeat;
+                    width: 400px;
+                    height: 261px;
+                    top: 2%;
+                    right: 76%;
+                }
+            }
+        }
+    }
+
+    &__btn {
+        position: relative;
+    }
+
+    &__button {
+        padding: 24px 40px;
+        background: #FF553E;
+        border-radius: 40px;
+        &:after {
+            content: '';
+            width: 120px;
+            height: 60px;
+            position: absolute;
+            background: url(/assets/images/icons/Iamge.png) no-repeat;
+            top: 5%;
+            right: -25px;
+            @include tablet-plus {
+                content: '';
+                position: absolute;
+                background: url(/assets/images/Image-tuda.png) no-repeat;
+                width: 600px;
+                height: 220px;
+                top: -159%;
+                right: -199%;
+            }
+        }
+
+        &:hover {
+            background-color: rgba(255, 85, 62, 1);
+        }
+        @include tablet-plus {
+            padding: 24px 35px;
+        }
+    }
+
+    &__sub-button {
+        margin-top: 16px;
+        padding: 24px 40px;
+        border: 1px solid #FF553E;
+        border-radius: 40px;
+    }
+
+    &__mobile-img {
+        display: none;
+        @include tablet-plus {
+            display: block;
+        }
+    }
+}

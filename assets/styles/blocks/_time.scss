@@ -1,0 +1,138 @@
+.burger-menu {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #FFFFFF;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    transition: 1s ease;
+    transform: translateX(-100%);
+
+    &.open {
+        transform: translateX(0);
+    }
+}
+
+.time {
+    position: relative;
+    padding: 70px 0 85px;
+    background: #FFF8F2; 
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 79px;
+            height: 86px;
+            background: url(/assets/images/icons/Alarm_Clock.png) no-repeat;
+            top: 6%;
+            right: 17%;
+            @include tablet-plus {
+                top: 10%;
+                right: 8%;
+            }
+        }
+
+
+    &__items {
+        @include tablet-plus {
+            text-align: center;
+        }
+    }       
+
+    &__text {
+        &:after {
+            content: '';
+            position: absolute;
+            width: 67px;
+            height: 60px;
+            background: url(/assets/images/icons/Vector-psf-strelka.png) no-repeat;
+            top: 80%;
+            right: 12%;
+        }
+    }        
+    
+
+    &__title {
+        margin-bottom: 12px;
+        max-width: 258px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 160%;
+        text-transform: capitalize;
+        color: #1C0E0D;
+        @include tablet-plus {
+            margin: 0 auto;
+            font-size: 64px;
+            max-width: 750px;
+        }
+    }
+
+    &__sub-title {
+        max-width: 307px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 36px;
+        color: #40201E;
+        opacity: 0.8;
+            @include tablet-plus {
+            margin: 0 auto;
+            max-width: 595px;
+            font-size: 20px;
+            line-height: 36px;
+        }
+    }
+
+    &__btn {
+        margin-top: 40px;
+        &:before {
+            content: '';
+            position: absolute;
+            width: 79px;
+            height: 86px;
+            background: url(/assets/images/icons/Vector-box.png) no-repeat;
+            top: 84%;
+            right: 79%;
+        }
+    }
+
+    &__button {
+        padding: 24px 40px;
+        background: #FF553E;
+        border-radius: 40px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        border: 1px solid #FF553E;
+        transition: 0.2s ease-in;
+        &:hover {
+            background-color: #FFFFFF;
+            color: #FF553E;
+        }
+        @include tablet-plus {
+            padding: 18px 35px;
+        }
+    }
+    
+
+    &__title-title {
+        &:after {
+            content: '';
+            width: 46px;
+            height: 74px;
+            position: absolute;
+            background: url(/assets/images/icons/Vector-img-ps.png) no-repeat;
+            top: 9%;
+            right: -4%;
+            @include tablet-plus {
+                top: 11%;
+                right: -2%;
+            }
+        }
+    }
+
+    &__shape {
+        background: bottom right no-repeat url(/assets/images/icons/Shape.svg);
+    }
+}

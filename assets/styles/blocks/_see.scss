@@ -1,0 +1,118 @@
+.see {
+
+    padding-bottom: 80px;
+
+    &__line {
+        background: url(/assets/images/icons/Shape-five.svg) no-repeat bottom;
+        @include tablet-plus {
+            background: url(/assets/images/Shappe.png) no-repeat bottom;
+        }
+    }
+
+    &__items {
+        @include tablet-plus {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+            gap: 5px;
+        }
+    }
+
+    &__title {
+        max-width: 225px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        text-transform: capitalize;
+        color: #332C5C;
+        @include tablet-plus {
+            font-size: 48px;
+            line-height: 70px;
+            max-width: 525px;
+        }
+    }
+
+    &__sub-title {
+        margin: 18px 0 28px;
+        max-width: 323px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+        color: #1C0E0D;
+        opacity: 0.8;
+        @include tablet-plus {
+            font-size: 18px;
+            line-height: 36px;
+            max-width: 471px;
+        }
+    }
+
+    &__btn {
+        margin-bottom: 40px;
+    }
+
+    &__button {
+        padding: 24px 40px;
+        border: 1px solid #FF553E;
+        border-radius: 40px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FF553E;
+        transition: 0.2s ease-in;
+        &:hover {
+            background-color: #FF553E;
+            color: #fff;
+        }
+        @include tablet-plus {
+            padding: 18px 35px;
+        }
+    } 
+
+    &__img {
+        display: grid;
+        grid-template-columns: repeat(2, min-content);
+        gap: 16px 16px;
+        @include tablet-plus {
+            background: url(/assets/images/Tools.png) no-repeat;
+            width: 628px;
+            height: 546px;
+        }
+    }
+
+    &__logo-see {
+        padding: 28px;
+        background: rgba(65, 165, 238, 0.1);
+        border-radius: 10px;
+        @include tablet-plus {
+            display: none;
+        }
+    }
+
+    &__logo-see-thoo {
+        padding: 28px;
+        background: rgba(243, 83, 37, 0.1);
+        border-radius: 15px;
+        @include tablet-plus {
+            display: none;
+        }
+    }
+
+    &__logo-see-thee {
+        padding: 28px;
+        background: rgba(0, 172, 71, 0.1);
+        border-radius: 15px;
+        @include tablet-plus {
+            display: none;
+        }
+    }
+
+    &__logo-see-fo {
+        padding: 28px 23px;
+        background: rgba(66, 133, 244, 0.1);
+        border-radius: 20px;
+        @include tablet-plus {
+            display: none;
+        }
+    }
+}
