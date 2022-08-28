@@ -11,7 +11,7 @@
             width: 100px;
             height: 92px;
             position: absolute;
-            background: url(/assets/images/icons/Image-raketa.png) no-repeat;
+            background: url(../../assets/images/icons/Image-raketa.png) no-repeat;
             top: -11%;
             right: 74%;
             @include tablet-plus {
@@ -19,7 +19,7 @@
                 width: 197px;
                 height: 183px;
                 position: absolute;
-                background: url(/assets/images/icons/3d_rocket.png);
+                background: url(../../assets/images/icons/3d_rocket.png);
                 top: -3%;
                 right: 3%;
                 z-index: -1;
@@ -28,9 +28,9 @@
     }
 
     &__line {
-        background: url(/assets/images/icons/Shape-line-thoo.png) no-repeat bottom;
+        background: url(../../assets/images/icons/Shape-line-thoo.png) no-repeat bottom;
         @include tablet-plus {
-            background: url(/assets/images/icons/Shapee.svg) no-repeat bottom;
+            background: url(../../assets/images/icons/Shapee.svg) no-repeat bottom;
         }
     }
 

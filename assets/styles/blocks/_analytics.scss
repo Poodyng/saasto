@@ -20,7 +20,7 @@
     }
 
     &__line {
-        background: url(/assets/images/icons/Shape-line-three.svg) no-repeat bottom;
+        background: url(../../assets/images/icons/Shape-line-three.svg) no-repeat bottom;
         @include tablet-plus {
             background: none;
         }
@@ -42,7 +42,7 @@
 
     &__line-plus {
         @include tablet-plus {
-            background: url(/assets/images/Shappe.png) no-repeat bottom left;
+            background: url(../../assets/images/Shappe.png) no-repeat bottom left;
         }
     }
 

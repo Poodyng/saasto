@@ -4,9 +4,9 @@
     background-color: rgba(255, 248, 242, 1);
 
     &__line {
-        background: url(/assets/images/icons/Shape-eight.svg) no-repeat bottom;
+        background: url(../../assets/images/icons/Shape-eight.svg) no-repeat bottom;
         @include tablet-plus {
-            background: url(/assets/images/Shappe.png) no-repeat bottom;
+            background: url(../../assets/images/Shappe.png) no-repeat bottom;
         }
     }
 
@@ -48,7 +48,7 @@
                     padding: 20px 35px;
                     content: '';
                     position: absolute;
-                    background: url(/assets/images/Image-tudaa.png) no-repeat;
+                    background: url(../../assets/images/Image-tudaa.png) no-repeat;
                     width: 400px;
                     height: 261px;
                     top: 2%;
@@ -71,13 +71,13 @@
             width: 120px;
             height: 60px;
             position: absolute;
-            background: url(/assets/images/icons/Iamge.png) no-repeat;
+            background: url(../../assets/images/icons/Iamge.png) no-repeat;
             top: 5%;
             right: -25px;
             @include tablet-plus {
                 content: '';
                 position: absolute;
-                background: url(/assets/images/Image-tuda.png) no-repeat;
+                background: url(../../assets/images/Image-tuda.png) no-repeat;
                 width: 600px;
                 height: 220px;
                 top: -159%;
