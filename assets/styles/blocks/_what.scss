@@ -15,9 +15,9 @@
     }
 
     &__line {
-        background: url(/assets/images/icons/Shape-seven.svg) no-repeat bottom;
+        background: url(../../assets/images/icons/Shape-seven.svg) no-repeat bottom;
         @include tablet-plus {
-            background: url(/assets/images/Shappe.png) no-repeat bottom;
+            background: url(../../assets/images/Shappe.png) no-repeat bottom;
         }
     }
 
@@ -27,13 +27,13 @@
             width: 62px;
             height: 63px;
             position: absolute;
-            background: url(/assets/images/icons/like.png) no-repeat;
+            background: url(../../assets/images/icons/like.png) no-repeat;
             top: 8%;
             right: 33%;
             @include tablet-plus {
                 width: 220px;
                 height: 225px;
-                background: url(/assets/images/like.svg);
+                background: url(../../assets/images/like.svg);
                 top: -11%;
                 right: 76%;
             }
@@ -51,13 +51,13 @@
             width: 79px;
             height: 81px;
             position: absolute;
-            background: url(/assets/images/icons/chat.png) no-repeat;
+            background: url(../../assets/images/icons/chat.png) no-repeat;
             top: 24%;
             right: -4%;
             @include tablet-plus {
                 top: 66%;
                 right: 65%;
-                background: url(/assets/images/chat.svg) no-repeat;
+                background: url(../../assets/images/chat.svg) no-repeat;
                 width: 200px;
                 height: 200px;
             }
@@ -93,7 +93,7 @@
             width: 126px;
             height: 123px;
             position: absolute;
-            background: url(/assets/images/emoji.png);
+            background: url(../../assets/images/emoji.png);
             top: 74%;
             right: 1%;
         }
@@ -116,7 +116,7 @@
             width: 63px;
             height: 55px;
             position: absolute;
-            background: url(/assets/images/icons/Elements-too.png) no-repeat;
+            background: url(../../assets/images/icons/Elements-too.png) no-repeat;
             top: 20%;
             right: 16%;
         }
@@ -157,7 +157,7 @@
             position: absolute;
             width: 100px;
             height: 120px;
-            background: url(/assets/images/Vectorr.svg);
+            background: url(../../assets/images/Vectorr.svg);
             top: 85%;
             right: -2%;
             z-index: -1;

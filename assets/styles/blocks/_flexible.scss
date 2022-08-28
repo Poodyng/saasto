@@ -7,9 +7,9 @@
     }
 
     &__line {
-        background: url(/assets/images/icons/Shape-five.svg) no-repeat bottom;
+        background: url(../../assets/images/icons/Shape-five.svg) no-repeat bottom;
         @include tablet-plus {
-            background: url(/assets/images/Shappe.png) no-repeat bottom right;
+            background: url(../../assets/images/Shappe.png) no-repeat bottom right;
         }
     }
 

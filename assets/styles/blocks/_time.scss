@@ -24,7 +24,7 @@
             position: absolute;
             width: 79px;
             height: 86px;
-            background: url(/assets/images/icons/Alarm_Clock.png) no-repeat;
+            background: url(../../assets/images/icons/Alarm_Clock.png) no-repeat;
             top: 6%;
             right: 17%;
             @include tablet-plus {
@@ -46,7 +46,7 @@
             position: absolute;
             width: 67px;
             height: 60px;
-            background: url(/assets/images/icons/Vector-psf-strelka.png) no-repeat;
+            background: url(../../assets/images/icons/Vector-psf-strelka.png) no-repeat;
             top: 80%;
             right: 12%;
         }
@@ -90,7 +90,7 @@
             position: absolute;
             width: 79px;
             height: 86px;
-            background: url(/assets/images/icons/Vector-box.png) no-repeat;
+            background: url(../../assets/images/icons/Vector-box.png) no-repeat;
             top: 84%;
             right: 79%;
         }
@@ -122,7 +122,7 @@
             width: 46px;
             height: 74px;
             position: absolute;
-            background: url(/assets/images/icons/Vector-img-ps.png) no-repeat;
+            background: url(../../assets/images/icons/Vector-img-ps.png) no-repeat;
             top: 9%;
             right: -4%;
             @include tablet-plus {
@@ -133,6 +133,6 @@
     }
 
     &__shape {
-        background: bottom right no-repeat url(/assets/images/icons/Shape.svg);
+        background: bottom right no-repeat url(../../assets/images/icons/Shape.svg);
     }
 }

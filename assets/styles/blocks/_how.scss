@@ -15,16 +15,16 @@
             width: 104px;
             height: 103px;
             position: absolute;
-            background: url(/assets/images/icons/chart.svg) no-repeat;
+            background: url(../../assets/images/icons/chart.svg) no-repeat;
             top: -3%;
             right: -7%;
         }
     }
 
     &__line {
-        background: url(/assets/images/icons/Shape-thfo.svg) no-repeat bottom;
+        background: url(../../assets/images/icons/Shape-thfo.svg) no-repeat bottom;
         @include tablet-plus {
-            background: url(/assets/images/icons/Shape.png) no-repeat bottom;
+            background: url(../../assets/images/icons/Shape.png) no-repeat bottom;
         }
     }
 

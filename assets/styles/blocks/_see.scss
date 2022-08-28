@@ -3,9 +3,9 @@
     padding-bottom: 80px;
 
     &__line {
-        background: url(/assets/images/icons/Shape-five.svg) no-repeat bottom;
+        background: url(../../assets/images/icons/Shape-five.svg) no-repeat bottom;
         @include tablet-plus {
-            background: url(/assets/images/Shappe.png) no-repeat bottom;
+            background: url(../../assets/images/Shappe.png) no-repeat bottom;
         }
     }
 
@@ -74,7 +74,7 @@
         grid-template-columns: repeat(2, min-content);
         gap: 16px 16px;
         @include tablet-plus {
-            background: url(/assets/images/Tools.png) no-repeat;
+            background: url(../../assets/images/Tools.png) no-repeat;
             width: 628px;
             height: 546px;
         }
